@@ -1,0 +1,21 @@
+{
+  "name": "fp_wasm",
+  "type": "module",
+  "description": "A Rust-based WebAssembly project for browser fingerprinting.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toymoa/fingerprint-wasm"
+  },
+  "files": [
+    "fp_wasm_bg.wasm",
+    "fp_wasm.js",
+    "fp_wasm.d.ts"
+  ],
+  "main": "fp_wasm.js",
+  "types": "fp_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
